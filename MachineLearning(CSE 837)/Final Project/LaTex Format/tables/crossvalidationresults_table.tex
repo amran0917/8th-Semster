@@ -1,0 +1,15 @@
+\begin{table}[!ht]
+\centering
+\footnotesize
+\caption{MAE, RMSE and Correlation Coefficient values (* indicates statistically significant at 0.05 level compared to Linear Regression)}
+\label{exp_tab}
+\resizebox{90mm}{!}{%
+\begin{tabular}{|p{1.8cm}|p{1.8425cm}|p{1.4cm}|p{2cm}|}
+\hline
+\textbf{Metrics}        & \textbf{Linear \newline Regression} & \textbf{Random Forest} & \textbf{Multilayer Perceptron} \\ \hline
+MAE                     & 0.13                       & 0.16*                           & 0.22*                   \\ \hline
+RMSE                    & 0.15                       & 0.20*                           & 0.28*                   \\ \hline
+Correlation Coefficient & 0.80                        & 0.67*                           & 0.61                   \\ \hline
+\end{tabular}%
+}
+\end{table}
